@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.Header {
+  background-color: rgb(85, 194, 253);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.headerIcon {
+  font-size: 50px;
+  margin-right: 10%;
+}
+.Nav {
+  background-color: rgb(52, 51, 52);
+  height: 130px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#search {
+  height: 50px;
+  font-size: 1.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+
+.Nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+.Home a {
+  color: black;
+  text-decoration: none;
+}
+.Nav li {
+  list-style-type: none;
+  color: white;
+  display: inline-block;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 10px;
+  text-align: center;
+  height: 105%;
+  width: 100px;
+}
+#dropdown-basic-button {
+  margin: 0.5rem 2rem 0 0;
+}
+.Nav li:hover,
+.Nav li:focus,
+.Nav li:hover a,
+.Nav li:focus a {
+  background-color: #eee;
+  color: #333;
+  cursor: pointer;
+}
+footer {
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(85, 194, 253);
+  width: 100%;
+  margin-top: 50px;
+}
+footer h1 {
+  text-align: center;
+}
+.newFeed {
+  width: 70%;
+  margin-left: 15%;
+  padding-left: 5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid gray;
+}
+.checkBox {
+  position: absolute;
+  right: 20%;
+  top: 15%;
+}
+.checkBox input {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 0;
+}
+
+.checkBox button {
+  margin-top: 30%;
+}
+.postTitle {
+  font-size: 2rem;
+}
+.postBody {
+  font-size: 1.5rem;
+  margin: 30px 0 30px 0;
+}
+.postPage {
+  background-color: wheat;
+  width: 70%;
+  margin-left: 15%;
+  padding-left: 5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+form input,
+textarea {
+  width: 50%;
+}
+form input {
+  height: 50px;
+}
+form textarea {
+  height: 500px;
+  margin-bottom: 50px;
+}
+.submitButton {
+  width: 20%;
+  height: 50px;
+  font-size: 1.5rem;
+}
+.Home,
+main {
+  min-height: 100vh;
+}
+
+#subNav {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-top: 80px;
+}
+
+.card .title {
+  font-size: 18px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+label {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.card button:hover,
+a:hover {
+  opacity: 0.7;
+}
+.regisForm {
+  background-color: rgb(110, 203, 234);
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media only screen and (min-width: 811px) {
+  .Nav {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+  }
+  .Nav li {
+    margin-right: 50px;
+  }
+}
